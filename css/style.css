@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid green;
+    height: 100vh;
+}
+
+
+
+.container {
+    border: 1px solid red;
+    height: 500px;
+    width: 900px;
+}
+
+.box{
+    border: 1px solid blue;
+    height: 500px;
+    width: 33%;
+    display: inline-block;
+}
